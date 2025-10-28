@@ -6,7 +6,7 @@ A real-time earthquake visualization web application that displays recent seismi
 
 ## Live Demo
 
-**[View Live Application](#)** _(Deploy link will be added after deployment)_
+**[View Live Application](#)** _(https://t5crqr-5173.csb.app/)_
 
 ## Features
 
@@ -102,22 +102,6 @@ This creates an optimized production build in the `dist/` directory.
 3. CodeSandbox will automatically detect Vite and run the dev server
 4. Share the generated URL
 
-### Deploy to StackBlitz
-1. Visit [stackblitz.com](https://stackblitz.com)
-2. Click "New Project" → "Import from GitHub" or upload files
-3. StackBlitz auto-configures Vite projects
-4. Get instant live preview URL
-
-### Deploy to Netlify/Vercel
-```bash
-# Netlify
-npm install -g netlify-cli
-netlify deploy --prod
-
-# Vercel
-npm install -g vercel
-vercel --prod
-```
 
 ## Design Decisions
 
@@ -143,40 +127,6 @@ vercel --prod
 - Color contrast meets WCAG AA standards
 - Focus states on all interactive elements
 
-## What I Delivered for the Take-Home
-
-### Level 1 (50%): AI-Assisted Development Approach
-**ChatGPT Conversation Link**: [View Conversation](#) _(Add your ChatGPT share link here)_
-
-**Approach Summary**:
-I used ChatGPT to help with:
-- Initial project structure and component architecture planning
-- TypeScript type definitions for USGS API response format
-- Best practices for react-leaflet marker clustering
-- Tailwind CSS responsive design patterns
-- Accessibility considerations for map-based interfaces
-
-The AI helped accelerate development by providing boilerplate code and suggesting modern React patterns (custom hooks, composition). I iterated on the suggestions to match the specific requirements and add custom features like the analytics dashboard.
-
-### Level 2 (30%): Live Demo
-**Live Application**: [View Demo](#) _(Add your deployed URL here)_
-
-The application is fully functional and deployed on a free hosting platform. All core features work:
-- Real-time earthquake data visualization
-- Interactive filtering and search
-- Marker clustering and popups
-- Auto-refresh capability
-- Responsive design for mobile/desktop
-
-### Level 3 (20%): Code & Documentation
-**Repository**: This codebase includes:
-- ✅ Complete React + Vite project with all dependencies
-- ✅ Modular component architecture (7 components)
-- ✅ Custom hooks for data management
-- ✅ TypeScript for type safety
-- ✅ Comprehensive README with setup instructions
-- ✅ Inline code comments explaining complex logic
-- ✅ Build-ready configuration for deployment
 
 **Code Organization**:
 ```
