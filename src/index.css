@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .leaflet-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .earthquake-popup .leaflet-popup-content-wrapper {
+    border-radius: 0.5rem;
+    padding: 0;
+  }
+
+  .earthquake-popup .leaflet-popup-content {
+    margin: 0;
+    width: auto !important;
+  }
+
+  .earthquake-popup .leaflet-popup-tip-container {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .absolute.top-4.left-4,
+  .absolute.top-4.right-4,
+  .absolute.bottom-4.right-4 {
+    display: none;
+  }
+}
